@@ -12,6 +12,10 @@ html, body {
   margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav ul{
     list-style: none;
     display: inline-block;
@@ -56,10 +60,6 @@ header{
     margin: 0px 60px;
 }
 
-#globalnav ul li a{
-    text-decoration: none;
-}
-
 #globalnav ul li a:hover{
     color: #ffffff;
     font-weight: 500;
@@ -70,3 +70,57 @@ header{
     color: rgb(232, 232, 237);  
 }
 
+/* main */
+main {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.copy-wrapper{
+    width: 100%;
+    background-color: #000000;
+    height: 260px;
+    color: #ffffff;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.copy-wrapper h2{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.copy-wrapper p{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.copy-button a{
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    min-width: 28px;
+    padding: 11px 21px;
+    margin: 22px 18px 0px 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+}
+
+.copy-button a.active,
+.copy-button a:hover{
+    background-color: #0071e3;
+    color: #ffffff;
+}
+
+.section-iphon17pro img{
+    width: 100%;
+}
