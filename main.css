@@ -193,14 +193,12 @@ section {
 }
 
 #store-title{
-    display: inline-block;
     float: left;
     font-size: 80px;
     font-weight: 500;
 }
 
 #store-description{
-    display: inline-block;
     float: right;
 }
 
@@ -316,6 +314,36 @@ section {
 .store-prod-desc span{
     font-size: 13px;
     font-weight: 300;
+}
+
+.color-337ae5{
+    color: #337ae5;
+}
+
+.color-408fe5{
+    color: #408fe5;
+}
+
+.color-8a8198{
+    color: #8a8198;
+}
+
+.color-d4734a{
+    color: #d4734a;
+}
+
+.color-ea6b2e{
+    color: #ea6b2e;    
+}
+
+.color-gray{
+    color: rgb(110, 110, 115);
+}
+
+.store-section-title{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 70px 0 20px 15px;
 }
 
 /* #337ae5 #408fe5 #8a8198 #d4734a #ea6b2e */
