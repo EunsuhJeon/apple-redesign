@@ -320,6 +320,142 @@ section {
 
 /* #337ae5 #408fe5 #8a8198 #d4734a #ea6b2e */
 
+/* accessories page */
+.acc-banner-section img{
+    width: 100%;
+}
+
+.acc-banner{
+    text-align: right;
+}
+
+.acc-banner img{
+    position: relative;
+}
+
+.acc-banner div{
+    position: absolute;
+    top: 160px;
+    right: 200px;
+}
+
+.acc-banner div h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.acc-banner div p{
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: 300;
+}
+
+.acc-banner div ul{
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.acc-banner div ul a,
+.acc-banner div ul a:active,
+.acc-banner div ul a:visited{
+    color: rgb(0, 102, 204);
+}
+
+.acc-search-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    gap: 30px;
+}
+
+.acc-search-section h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.acc-icons-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc-icons-wrapper{
+    padding: 50px 0;
+    display: grid;
+    grid-template-areas: 
+    "mac ipad iphone watch vision"
+    ". airpods tv beats .";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 188px 188px;
+    width: 70%;
+    border-top: 1px solid rgb(210, 210, 215);
+    gap: 30px;
+}
+
+.mac{
+    grid-area: mac;
+}
+
+.ipad{
+    grid-area: ipad;
+}
+
+.iphone{
+    grid-area: iphone;
+}
+
+.watch{
+    grid-area: watch;
+}
+
+.vision{
+    grid-area: vision;
+}
+
+.airpods{
+    grid-area: airpods;
+}
+
+.tv{
+    grid-area: tv;
+}
+
+.beats{
+    grid-area: beats;
+}
+
+.acc-icons-wrapper > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 143px auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.acc-icons-wrapper img{
+    width: 75px;
+    height: 75px;
+}
+
+.acc-icons-wrapper > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 143px;
+    height: 143px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 210, 215);
+}
+
+.acc-icons-wrapper a{
+    font-size: 16px;
+    font-weight: 300;
+    align-self: end;
+}
 
 /* support page */
 .banner-wrapper{
